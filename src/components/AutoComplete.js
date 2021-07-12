@@ -58,7 +58,7 @@ const AutoComplete = () => {
                         <div  className="options">
                             <ul>
                                 {suggestions.length > 0 ?(suggestions.map((el,index)=><li key={index} onClick={handleClick(el)} name={el}>{el}</li>)):
-                                    <img src="https://img.icons8.com/ios-glyphs/30/000000/plus-math.png" onClick={handleAdd}/>
+                                    <img src="https://img.icons8.com/ios-glyphs/30/000000/plus-math.png" onClick={handleAdd} alt="plus"/>
                                 }
                             </ul>
                         </div>}
